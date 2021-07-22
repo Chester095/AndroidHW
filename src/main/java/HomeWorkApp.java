@@ -21,6 +21,8 @@ public class HomeWorkApp {
         else System.out.println("Сумма отрицательная\n");
     }
 
+
+
     public static void printColor() {
         int value = 100;
         if (value <= 0) System.out.println(ANSI_RED + "Красный\n" + ANSI_RESET);
