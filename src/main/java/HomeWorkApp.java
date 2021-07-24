@@ -37,9 +37,9 @@ public class HomeWorkApp {
 
 
     static void strPrnt(String text, String colour) throws InterruptedException {
-        if (colour == "red") System.out.print(ANSI_RED);
-        else if (colour == "yellow") System.out.print(ANSI_YELLOW);
-        else if (colour == "green") System.out.print(ANSI_GREEN);
+        if (colour.equals("red")) System.out.print(ANSI_RED);
+        else if (colour.equals("yellow")) System.out.print(ANSI_YELLOW);
+        else if (colour.equals("green")) System.out.print(ANSI_GREEN);
         else System.out.println(ANSI_RESET);
         for (int i = 0; i < text.length(); i++) {
             System.out.print(text.charAt(i));
